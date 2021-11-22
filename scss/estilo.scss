@@ -1,0 +1,58 @@
+@import "body";
+@import "menu";
+@import "tipografia";
+
+#carouselDark{
+    margin: 1rem;
+}
+.frame-Section{
+    margin: 12px;
+    width: 100%;
+    text-align: center;
+}    
+.frame-styles{
+    width: 60%;
+    height: 250px;
+    border:4px solid black;
+    
+}
+.card{
+    border: inherit black;
+    height: auto;
+    width: auto;
+} 
+.card:hover{
+    border: inset #39ff14;
+}
+
+
+.card-img-top{
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    border-radius: 30px; 
+    
+} 
+/*mover el producto al pasar el mouse*/
+.card-img-top:hover{
+    overflow: hidden;
+    transform: translate(-1px, 1px);
+}
+.section-productos{
+    width: 500px;
+    border: 10px;
+    padding: 0 auto;
+    margin: 0 auto;
+
+}
+
+.card-link{
+    outline: none;
+    text-decoration: none;
+
+    width: 10%;
+    margin-right: 0.625%;
+    line-height: 3;
+
+}

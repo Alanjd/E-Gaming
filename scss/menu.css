@@ -1,0 +1,20 @@
+.container {
+  border: #39ff14;
+}
+
+.container .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: inherit;
+      flex-wrap: inherit;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+}
+
+.navbar-brand {
+  border-radius: solid #39ff14;
+}
+/*# sourceMappingURL=menu.css.map */

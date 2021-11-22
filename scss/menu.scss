@@ -1,0 +1,14 @@
+.container{
+    border: #39ff14;
+    .container-fluid{
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        width: 60%;
+    }
+}
+
+.navbar-brand{
+    border-radius: solid #39ff14;
+
+}
