@@ -1,4 +1,4 @@
-.titulo {
+h1 {
   color: white;
   font-style: normal;
   font-size: 2.5rem;
@@ -29,8 +29,12 @@
   }
 }
 
-h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
 }
 
 h2 {
